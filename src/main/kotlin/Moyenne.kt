@@ -4,7 +4,7 @@ import kotlin.random.Random
 fun main(args: Array<String>) {
 val n = args[0].toInt()
     val tableau = creeTableauAleatoire(n)
-    println("Tableau généré : ${tableau.joinToString { ", " }}")
+    println("Tableau généré : ${tableau.joinToString ( ", ")}")
     afficherStats(tableau)
 }
 

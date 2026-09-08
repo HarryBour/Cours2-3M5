@@ -1,0 +1,12 @@
+package org.example
+
+fun main() {
+    println(factorielle(2))
+}
+fun factorielle(n: Int): Int {
+    if (n == 0) {
+        return 1
+    } else {
+        return n * factorielle(n - 1)
+    }
+}

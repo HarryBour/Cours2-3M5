@@ -10,7 +10,7 @@ val nombre= listOf(0.1, 12.34, -0.1234, 3.1416)
 fun triInverseALaMain(liste: List<Double>): List<Double> {
     val listeInversee : MutableList<Double> =mutableListOf() // déclaration d'une liste mutable pour une boucle
 
-    for (index in liste.size - 1 downTo 0) { //pour faire inversement avec boucle
+    for (index in liste.size - 1 downTo 0) { //pour faire inversement avec boucle (down to pour parcourir de droite â gauche)
         listeInversee.add(liste[index])
     }
 
